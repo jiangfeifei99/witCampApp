@@ -1,0 +1,119 @@
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// html,
+// body {
+//   -moz-user-select: none;
+//   -khtml-user-select: none;
+//   user-select: none;
+// }
+// 苹果手机底部高度问题
+@supports (bottom: env(safe-area-inset-bottom)) {
+  body,
+  .bottom-tabber-contain {
+    box-sizing: content-box;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+i {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+//底部撑开
+.hk {
+  height: 50px;
+}
+//灰色分隔
+.fg {
+  height: 15px;
+  width: 100%;
+  opacity: 0.7;
+  background: #f3f4f6;
+}
+.van-toast {
+  background-color: rgba(0, 0, 0, 0);
+  .van-toast__text {
+    color: #1989fa;
+  }
+  .van-toast__loading {
+    color: #1989fa;
+  }
+}
+.uploader-content {
+  .van-field__body {
+    border: none;
+  }
+  .van-field__control {
+    height: auto;
+  }
+}
+.floor {
+  color: #969799;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  background: rgba(204, 204, 204, 0.6);
+}
+.home-form {
+  .van-field__label {
+    color: #333333;
+  }
+  .van-field__control {
+    color: #999999;
+  }
+}
+.van-icon-credit-pay,
+.van-icon-debit-pay {
+  color: #3294f5;
+  margin-right: 10px;
+  font-size: 20px !important;
+}
+.collapse {
+  .van-cell--clickable {
+    padding-left: 0;
+  }
+  .van-collapse-item__content {
+    padding: 0;
+  }
+  .van-cell__title {
+    .van-field {
+      padding: 0 16px;
+    }
+  }
+}
+.query {
+  .isAndroid {
+    .van-tabs--line {
+      .van-sticky {
+        top: 70px !important;
+      }
+    }
+  }
+  .van-tabs--line {
+    .van-tabs__wrap {
+      height: 58px;
+    }
+    .van-tabs__nav {
+      background: #f6f7fc;
+    }
+    .van-tabs__line {
+      background: none;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #fff;
+      border-left: 10px solid transparent;
+    }
+  }
+}
+
+// #__vconsole {
+//   display: none;
+// }

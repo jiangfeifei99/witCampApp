@@ -1,0 +1,73 @@
+{
+  "name": "policecloud",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build:test": "vue-cli-service build --mode test"
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.0.0-beta.2",
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.26.1",
+    "core-js": "^2.6.5",
+    "dingtalk-jsapi": "^2.10.3",
+    "echarts": "^5.1.2",
+    "lodash": "^4.17.15",
+    "mockjs2": "^1.0.5",
+    "moment": "^2.24.0",
+    "mpvue-calendar": "^2.3.7",
+    "qrcodejs2": "^0.0.2",
+    "qs": "^6.9.4",
+    "vant": "^2.9.2",
+    "vconsole": "^3.3.4",
+    "vue": "^2.6.10",
+    "vue-calendar-component": "^2.8.2",
+    "vue-calendar-week": "^1.0.7",
+    "vue-ls": "^3.2.1",
+    "vue-router": "^3.0.7",
+    "vue-touch": "^2.0.0-beta.4",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.3",
+    "@vue/cli-plugin-eslint": "^5.0.3",
+    "@vue/cli-service": "^4.5.16",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^8.11.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "less": "^3.12.0",
+    "less-loader": "^6.2.0",
+    "polyfill": "^0.1.0",
+    "postcss-pxtorem": "^6.0.0",
+    "vue-svg-icon-loader": "^2.1.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
